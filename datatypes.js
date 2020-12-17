@@ -42,7 +42,7 @@ if (a === b){
 //Number
 const a = 37;
 
-console.log(a, typeof a)length
+console.log(a, typeof a);
 
 const b = 96.7;
 
@@ -50,15 +50,32 @@ console.log(b, typeof b);
 
 const c = NAN;
 console(c, typeof c);
-const d = Number('Mark';
+const d = Number('Mark');
 console.log (d, typeof d);
 
 const e = Number('37');
 console.log(e, typeof e);
 
 //String
-const a = "Mark"
+const a = "Mark";
 
 console.log(a, typeof a);
 
 const b = 'Mark' + 'Son';
+
+const c = a + 'Lee';
+
+console.log(c, typeof c);
+
+const  d = '${a} Lee';
+
+console.log(d, typeof d);
+
+//Symbol
+const a = Symbol();
+const b = Symbol(22);
+const c = Symbol('Son');
+const d = Symbol('Son'); // c \= d 고유한 값 가짐
+
+console.log(a, typeof a);
+console.log(c === d); //c 와 d 비교 = 3개
