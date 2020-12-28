@@ -42,5 +42,6 @@ if (multipleOfThree && multipleOfFive){
     }else if (multipleOfFive){
     console.log('n은 5의 배수');
 } else{
-    console.log('n은 3의 배수도아니고 5의 배수도 아님');
+    console.log('n은 3의 배수도아니고 5의 배수도 아님')
+}
 }
